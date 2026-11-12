@@ -1,0 +1,25 @@
+# Private source data and extracted dataset
+/data/
+/images/
+*.csv
+*.xls
+*.xlsx
+*.xlsm
+*.zip
+
+# Local-only documentation
+/FIELD_GUIDE.local.md
+/CNN_Disaster_Classifier.pdf
+
+# Notebook and Python environment files
+.ipynb_checkpoints/
+__pycache__/
+.venv/
+venv/
+
+# Training artifacts
+/checkpoints/
+/logs/
+*.keras
+*.h5
+*.weights.h5
